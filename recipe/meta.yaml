@@ -1,5 +1,5 @@
 {% set name = "lpsolvers" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lpsolvers-{{ version }}.tar.gz
-  sha256: 3b0bd30be974991592d36a3c70260a38b789253752d018d1ea3183b8033e09a1
+  sha256: 52d31474adb94ffbd5dcc921191e48e77dea16a51c500fe720feb16c8109b8a0
 
 build:
   noarch: python
